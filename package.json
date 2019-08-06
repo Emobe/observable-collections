@@ -1,0 +1,36 @@
+{
+  "name": "ts-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript boilerplate using ts-node and tape for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape src/**/*.ts",
+    "test:watch": "ts-node node_modules/tape-watch/bin/tape-watch src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emobe/ts-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "tape",
+    "boilerplate",
+    "testing"
+  ],
+  "author": "Anthony Shuker <anthony@emobe.uk>",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/emobe/ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/emobe/ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/tape": "^4.2.33",
+    "nodemon": "^1.19.1",
+    "tape": "^4.11.0",
+    "tape-watch": "^2.3.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  }
+}
