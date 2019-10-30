@@ -1,8 +1,8 @@
 {
   "name": "@emobe/observable-collections",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Observable Maps and arrays",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
     "test": "ts-node node_modules/tape/bin/tape src/**/*.ts",
