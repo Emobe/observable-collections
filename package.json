@@ -1,6 +1,6 @@
 {
   "name": "@emobe/observable-collections",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Observable Maps and arrays",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emobe/ts-boilerplate.git"
+    "url": "git+https://github.com/emobe/observable-collections.git"
   },
   "keywords": [
     "typescript",
@@ -22,12 +22,11 @@
   "author": "Anthony Shuker <anthony@emobe.uk>",
   "license": "UNLICENCED",
   "bugs": {
-    "url": "https://github.com/emobe/ts-boilerplate/issues"
+    "url": "https://github.com/emobe/observable-collections/issues"
   },
-  "homepage": "https://github.com/emobe/ts-boilerplate#readme",
+  "homepage": "https://github.com/emobe/observable-collections#readme",
   "devDependencies": {
     "@types/tape": "^4.2.33",
-    "nodemon": "^1.19.2",
     "tape": "^4.11.0",
     "tape-watch": "^2.3.0",
     "ts-node": "^8.4.1",
@@ -36,7 +35,6 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "rxjs": "^6.5.3",
-    "tsconfig-paths": "^3.9.0"
+    "rxjs": "^6.5.3"
   }
 }
