@@ -1,4 +1,5 @@
-export default class ObservableMap<K, V> {
+import { ObservableCollection } from './ObservableCollection';
+export default class ObservableMap<K, V> implements ObservableCollection {
     private items;
     private subject;
     items$: import("rxjs").Observable<Map<K, V>>;
