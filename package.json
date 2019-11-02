@@ -1,6 +1,6 @@
 {
   "name": "@emobe/observable-collections",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Observable Maps and arrays",
   "main": "dist/index.js",
   "scripts": {
